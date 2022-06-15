@@ -4,10 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js",
     
-    "heroku-postbuild": " cd solappnew && npm install && npm run build",
-    "client":"cd solappnew && npm start"
+    "start": "node index.js",
+    "heroku-postbuild": "cd solappnew && npm install "
 
   },
   "keywords": [],
