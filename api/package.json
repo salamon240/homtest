@@ -5,9 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "nodemon index.js",
-    "build": "cd solappnew && npm run build",
-    "install-clint": "cd solappnew && npm install",
-    "heroku-postbuild": "npm run install-clint && npm run build",
+    
+    "heroku-postbuild": " cd solappnew && npm install && npm run build",
     "client":"cd solappnew && npm start"
 
   },
